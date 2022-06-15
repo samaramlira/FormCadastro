@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caravana SUD</title>
+
+  <!--Importar CSS-->
+  <link rel="stylesheet" href="style.css"> 
+  <!--Importar icones-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Importar fonte-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:wght@300;400;500;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class="cabecalho">
+    <h3 >CaravanaSUD</h3>
+    <a>&#9776;</a>
+  </header>
+
+  <div class="container">
+    <h1>CADASTRO</h1>
+    <form id="form" class="form">
+      <div class="form-control">
+        <input type="text" id="nome" placeholder="Nome"/>
+        
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="sobrenome" placeholder="Sobrenome"/>
+
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="email" id="email" placeholder="E-mail"/>
+
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="password" id="password" placeholder="Digite aqui sua Senha"/>
+        <img src="mostrar.png" id="verSenha" alt="">
+        
+        <h5>A sua senha deve ter pelo menos<br>8 caracteres e pelo menos um número</h5>
+    
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="password" id="password-confirmation" placeholder="Repita aqui sua Senha"/>
+        <img src="mostrar.png" id="verConfirmSenha" alt="">
+        
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="tel" id="celular" placeholder="Digite seu celular"/>
+        
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <input type="text" id="estaca" placeholder="Nome da sua Estaca"/>
+        
+        <div class="preenchido">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>Mensagem de erro</small>
+        </div>
+      </div>
+
+      <!--Quantidade de alas ou ramos-->
+      <div class="form-control">
+          <select name="Quantas Alas ou ramos?" id="alas">
+            <option selected disabled value="">Quantas Alas ou ramos?</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option+>10</option>
+          </select>
+          <div class="preenchido">
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Mensagem de erro</small>
+          </div>
+      </div>
+
+      <!--Nome das alas ou ramos-->
+      <div class="nomeAla">
+        
+        <div id="ala01" class="form-control"></div>
+      
+      </div>
+      <!--Botões-->
+      <div class="button">
+        <button type="reset" class="canc"><a href="">CANCELAR</a></button>
+        <button type="submit" class="salv">SALVAR</button>
+      </div>
+    </form>
+  </div>
+
+  <!--Importar JS-->
+  <script type="text/javascript" src="app.js"></script> 
+</body>
+</html>

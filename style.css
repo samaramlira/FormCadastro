@@ -84,6 +84,9 @@ body {
 .form-control select, option{
   cursor: pointer;
 }
+.nomeAla #ala01{
+  padding-top: 20px;
+}
 
 /*imgem de mostrar e ocultar senha*/
 .form-control img{
@@ -182,3 +185,19 @@ body {
   background: #386fe7;
 }
 
+/*Logar*/
+.logar{
+  position: absolute;
+  top: 90%;
+  font-size: 16px;
+  color: #9E9E9E;
+  font-weight: bold;
+}
+.logar a{
+  color: #407BFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.logar a:hover{
+  text-decoration: underline;
+}

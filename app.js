@@ -494,10 +494,10 @@ btn.onclick = () =>
 {
   if (senha.type === 'password') {
       senha.type = 'text'
-      btn.src = 'ocultar.png'
+      btn.src = 'imagens/ocultar.png'
   } else {
     senha.type = 'password'
-    btn.src = 'mostrar.png'
+    btn.src = 'imagens/mostrar.png'
   }
 }
 
@@ -508,9 +508,9 @@ btn2.onclick = () =>
 {
   if (confirmSenha.type === 'password') {
       confirmSenha.type = 'text'
-      btn2.src = 'ocultar.png'
+      btn2.src = 'imagens/ocultar.png'
   } else {
     confirmSenha.type = 'password'
-    btn2.src = 'mostrar.png'
+    btn2.src = 'imagens/mostrar.png'
   }
 }
